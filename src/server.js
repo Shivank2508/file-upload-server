@@ -9,7 +9,7 @@ app.use(express.json())
 
 app.use("/", uploadRoutes);
 
-app.use("/api/upload", uploadRoutes);
+
 const PORT = 8000
 
 app.listen(PORT, () => {
